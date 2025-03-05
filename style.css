@@ -21,6 +21,7 @@ p {
 
 .navbar {
     margin-bottom: 20px;
+    background-color: #007bff;
 }
 
 .navbar-brand, .nav-link {
@@ -48,4 +49,26 @@ p {
     .text-md-left {
         text-align: center !important;
     }
+}
+
+footer {
+    padding: 20px 0;
+    background-color: #f8f9fa;
+    color: #333;
+}
+
+footer a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
+
+footer .bg-dark {
+    background-color: #343a40 !important;
+}
+footer {
+    padding-bottom: 0;
 }
